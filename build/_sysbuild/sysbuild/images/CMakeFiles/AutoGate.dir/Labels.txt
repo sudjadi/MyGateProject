@@ -1,0 +1,13 @@
+# Target labels
+ AutoGate
+# Source files and their labels
+C:/nordic/myApps/AutoGate/build/_sysbuild/sysbuild/images/CMakeFiles/AutoGate
+C:/nordic/myApps/AutoGate/build/_sysbuild/sysbuild/images/CMakeFiles/AutoGate.rule
+C:/nordic/myApps/AutoGate/build/_sysbuild/sysbuild/images/CMakeFiles/AutoGate-complete.rule
+C:/nordic/myApps/AutoGate/build/_sysbuild/sysbuild/images/AutoGate-prefix/src/AutoGate-stamp/AutoGate-build.rule
+C:/nordic/myApps/AutoGate/build/_sysbuild/sysbuild/images/AutoGate-prefix/src/AutoGate-stamp/AutoGate-configure.rule
+C:/nordic/myApps/AutoGate/build/_sysbuild/sysbuild/images/AutoGate-prefix/src/AutoGate-stamp/AutoGate-download.rule
+C:/nordic/myApps/AutoGate/build/_sysbuild/sysbuild/images/AutoGate-prefix/src/AutoGate-stamp/AutoGate-install.rule
+C:/nordic/myApps/AutoGate/build/_sysbuild/sysbuild/images/AutoGate-prefix/src/AutoGate-stamp/AutoGate-mkdir.rule
+C:/nordic/myApps/AutoGate/build/_sysbuild/sysbuild/images/AutoGate-prefix/src/AutoGate-stamp/AutoGate-patch.rule
+C:/nordic/myApps/AutoGate/build/_sysbuild/sysbuild/images/AutoGate-prefix/src/AutoGate-stamp/AutoGate-update.rule

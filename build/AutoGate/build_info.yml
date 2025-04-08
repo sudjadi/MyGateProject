@@ -1,0 +1,50 @@
+cmake:
+  application:
+    configuration-dir: C:/nordic/myApps/AutoGate
+    source-dir: C:/nordic/myApps/AutoGate
+  board:
+    name: nrf21540dk
+    qualifiers: nrf52840
+    revision: 
+  devicetree:
+    bindings-dirs:
+     - C:/ncs/v2.9.0/nrf/dts/bindings
+     - C:/ncs/v2.9.0/zephyr/dts/bindings
+    files:
+     - C:/ncs/v2.9.0/zephyr/boards/nordic/nrf21540dk/nrf21540dk_nrf52840.dts
+     - C:/nordic/myApps/AutoGate/nrf21540dk_nrf52840.overlay
+    include-dirs:
+     - C:/ncs/v2.9.0/nrf/include
+     - C:/ncs/v2.9.0/nrf/dts
+     - C:/ncs/v2.9.0/zephyr/include
+     - C:/ncs/v2.9.0/zephyr/include/zephyr
+     - C:/ncs/v2.9.0/zephyr/dts/common
+     - C:/ncs/v2.9.0/zephyr/dts/x86
+     - C:/ncs/v2.9.0/zephyr/dts/xtensa
+     - C:/ncs/v2.9.0/zephyr/dts/sparc
+     - C:/ncs/v2.9.0/zephyr/dts/riscv
+     - C:/ncs/v2.9.0/zephyr/dts/posix
+     - C:/ncs/v2.9.0/zephyr/dts/nios2
+     - C:/ncs/v2.9.0/zephyr/dts/arm64
+     - C:/ncs/v2.9.0/zephyr/dts/arm
+     - C:/ncs/v2.9.0/zephyr/dts/arc
+     - C:/ncs/v2.9.0/zephyr/dts
+    user-files:
+     - C:/nordic/myApps/AutoGate/nrf21540dk_nrf52840.overlay
+  kconfig:
+    files:
+     - C:/ncs/v2.9.0/zephyr/boards/nordic/nrf21540dk/nrf21540dk_nrf52840_defconfig
+     - C:/nordic/myApps/AutoGate/prj.conf
+     - C:/nordic/myApps/AutoGate/build/AutoGate/zephyr/.config.sysbuild
+    user-files:
+     - C:/nordic/myApps/AutoGate/prj.conf
+  toolchain:
+    name: zephyr
+    path: C:/ncs/toolchains/2d382dcd92/opt/zephyr-sdk
+  vendor-specific:
+    nordic:
+      svdfile: C:/ncs/v2.9.0/modules/hal/nordic/nrfx/mdk/nrf52840.svd
+  zephyr:
+    version: 3.7.99
+    zephyr-base: C:/ncs/v2.9.0/zephyr
+version: 0.1.0

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/nordic/myApps/AutoGate/build/_sysbuild/sysbuild/images/CMakeFiles/AutoGate"
+		},
+		{
+			"file" : "C:/nordic/myApps/AutoGate/build/_sysbuild/sysbuild/images/CMakeFiles/AutoGate.rule"
+		},
+		{
+			"file" : "C:/nordic/myApps/AutoGate/build/_sysbuild/sysbuild/images/CMakeFiles/AutoGate-complete.rule"
+		},
+		{
+			"file" : "C:/nordic/myApps/AutoGate/build/_sysbuild/sysbuild/images/AutoGate-prefix/src/AutoGate-stamp/AutoGate-build.rule"
+		},
+		{
+			"file" : "C:/nordic/myApps/AutoGate/build/_sysbuild/sysbuild/images/AutoGate-prefix/src/AutoGate-stamp/AutoGate-configure.rule"
+		},
+		{
+			"file" : "C:/nordic/myApps/AutoGate/build/_sysbuild/sysbuild/images/AutoGate-prefix/src/AutoGate-stamp/AutoGate-download.rule"
+		},
+		{
+			"file" : "C:/nordic/myApps/AutoGate/build/_sysbuild/sysbuild/images/AutoGate-prefix/src/AutoGate-stamp/AutoGate-install.rule"
+		},
+		{
+			"file" : "C:/nordic/myApps/AutoGate/build/_sysbuild/sysbuild/images/AutoGate-prefix/src/AutoGate-stamp/AutoGate-mkdir.rule"
+		},
+		{
+			"file" : "C:/nordic/myApps/AutoGate/build/_sysbuild/sysbuild/images/AutoGate-prefix/src/AutoGate-stamp/AutoGate-patch.rule"
+		},
+		{
+			"file" : "C:/nordic/myApps/AutoGate/build/_sysbuild/sysbuild/images/AutoGate-prefix/src/AutoGate-stamp/AutoGate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"AutoGate"
+		],
+		"name" : "AutoGate"
+	}
+}

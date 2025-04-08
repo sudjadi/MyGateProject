@@ -1,0 +1,54 @@
+// To get started, press Ctrl+Space to bring up the completion menu and view the available nodes.
+
+// You can also use the buttons in the sidebar to perform actions on nodes.
+// Actions currently available include:
+
+// * Enabling / disabling the node
+// * Adding the bus to a bus
+// * Removing the node
+// * Connecting ADC channels
+
+// For more help, browse the DeviceTree documentation at https://docs.zephyrproject.org/latest/guides/dts/index.html
+// You can also visit the nRF DeviceTree extension documentation at https://docs.nordicsemi.com/bundle/nrf-connect-vscode/page/guides/ncs_configure_app.html#devicetree-support-in-the-extension
+/* Enable and configure PWM0 and PWM1 */
+/* Enable PWM0 and PWM1 */
+/ {
+	pwmleds {
+		compatible = "pwm-leds";
+		status = "okay";
+
+		pwm_led0: pwm_led_0 {
+			pwms = <&pwm0 0 PWM_MSEC(20) PWM_POLARITY_INVERTED>;
+			label = "PWM LED 0";
+		};
+
+		pwm_led1: pwm_led_1 {
+			pwms = <&pwm0 1 PWM_MSEC(20) PWM_POLARITY_INVERTED>;
+			label = "PWM LED 1";
+		};
+	};
+};
+
+&pwm0 {
+    status = "okay";
+	pinctrl-0 = <&pwm0_default_alt>;
+	pinctrl-1 = <&pwm0_sleep_alt>;
+	pinctrl-names = "default", "sleep";
+};
+
+&pinctrl {
+    pwm0_default_alt: pwm0_default_alt {
+        group1 {
+            psels = <NRF_PSEL(PWM_OUT0, 0, 13)>,
+                    <NRF_PSEL(PWM_OUT1, 0, 14)>;
+        };
+    };
+
+    pwm0_sleep_alt: pwm0_sleep_alt {
+        group1 {
+            psels = <NRF_PSEL(PWM_OUT0, 0, 13)>,
+                    <NRF_PSEL(PWM_OUT1, 0, 14)>;
+            low-power-enable;
+        };
+    };
+};

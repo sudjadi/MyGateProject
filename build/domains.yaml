@@ -1,0 +1,7 @@
+default: AutoGate
+build_dir: C:/nordic/myApps/AutoGate/build
+domains:
+  - name: AutoGate
+    build_dir: C:/nordic/myApps/AutoGate/build/AutoGate
+flash_order:
+  - AutoGate
