@@ -22,7 +22,7 @@ static const struct pwm_dt_spec pwm_led1 = PWM_DT_SPEC_GET(PWM_LED1_NODE);
 #define PERIOD                  1000     //ms
 #define DUTYCYCLE               850      //10ms high
 
-#define GATETIMERLIMIT          250     // 250 x 100ms timer = 25 seconds
+#define GATETIMERLIMIT          275     // 250 x 100ms timer = 25 seconds
 #define SLEEPTIMER              375     // 300 x 100ms
 /* The devicetree node identifier for the "led0" alias. */
 #define LED0_NODE DT_ALIAS(led0)                        //for right actuator
