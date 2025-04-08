@@ -4,6 +4,7 @@ button1 : to open/close both gate
 button2 : to open/close both gate via tuya switch
 button3 : connected to reid switch right
 button4 : connected to reid swtich left
+add comment
 */
 #include "include/uartservice.h"
 #include "include/adc.h"
@@ -19,7 +20,7 @@ static const struct pwm_dt_spec pwm_led0 = PWM_DT_SPEC_GET(PWM_LED0_NODE);
 static const struct pwm_dt_spec pwm_led1 = PWM_DT_SPEC_GET(PWM_LED1_NODE);
 // PWM DEFINITION
 #define PERIOD                  1000     //ms
-#define DUTYCYCLE               500      //10ms high
+#define DUTYCYCLE               750      //10ms high
 
 #define GATETIMERLIMIT          250     // 250 x 100ms timer = 25 seconds
 #define SLEEPTIMER              300     // 300 x 100ms
